@@ -34,3 +34,5 @@ button{
     transition: background-color 0.3s; /* אנימציה על שינוי צבע */
 
 }
+.pointer {cursor: pointer;}
+
