@@ -45,7 +45,8 @@ function buildKeyBoard(div_for_keyboard, main_div) {
     space = document.createElement("footer")
     space.innerHTML = "Space"
     space.addEventListener("click", (e) => {
-        document.getElementById("output").innerHTML += String.fromCharCode(32)
+        space_char=' ';
+        document.getElementById("output").innerHTML =  document.getElementById("output").innerHTML + space_char
     })
     space.style.textAlign = "center"
     // space.style.backgroundColor = "black"
