@@ -23,7 +23,7 @@ function buildKeyBoard(div_for_keyboard, main_div) {
     for (i = 1488; i <= "ת".charCodeAt(0); i++) {
         key = document.createElement("div")
         key.innerHTML = String.fromCharCode(i)
-        key.className = "key"
+        key.className = "key pointer"
         key.style.cursor = "pointer"
         key.addEventListener("mouseover", (e) => {
             e.target.style.width = "60px";
