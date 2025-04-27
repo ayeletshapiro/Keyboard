@@ -13,7 +13,7 @@ function loadHebrewKeyBoard() {
     section = document.createElement("section")
     // section.style.backgroundColor = "black"
     section.style.width = "90%"
-    section.style.marginRight = "50%"
+    section.style.margin = "auto"
     main_div.appendChild(section)
     buildKeyBoard(section, main_div)
 }
